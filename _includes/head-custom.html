@@ -1,0 +1,50 @@
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+
+  macros: {
+
+      // --- sets / number systems ---
+      RR: "\\mathbb{R}",
+      NN: "\\mathbb{N}",
+      ZZ: "\\mathbb{Z}",
+      QQ: "\\mathbb{Q}",
+      CC: "\\mathbb{C}",
+
+      // --- calculus / operators ---
+      d: "\\mathrm{d}",
+      pd: "\\partial",
+      diff: ["\\frac{\\mathrm{d}#1}{\\mathrm{d}#2}", 2],
+      pdiff: ["\\frac{\\partial #1}{\\partial #2}", 2],
+
+      // --- linear algebra ---
+      vec: ["\\mathbf{#1}", 1],
+      mat: ["\\mathbf{#1}", 1],
+      T: "^{\\mathsf{T}}",
+
+      // --- optimization ---
+      argmax: "\\operatorname*{arg\\,max}",
+      argmin: "\\operatorname*{arg\\,min}",
+
+      // --- probability / stats ---
+      E: "\\mathbb{E}",
+      Var: "\\operatorname{Var}",
+      Cov: "\\operatorname{Cov}",
+      P: "\\mathbb{P}",
+
+      // --- physics / engineering ---
+      degree: "^{\\circ}",
+
+      // --- shortcuts ---
+      eps: "\\varepsilon",
+      half: "\\tfrac{1}{2}"
+    }
+  }
+};
+</script>
+
+<script id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
