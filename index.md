@@ -51,24 +51,25 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
 ## Berkeley
 
 ### Spring 2023
-- **ME 102B**: Mechatronics Design (H. Kazerooni)
-- **EE C128**: Feedback Control Systems (S. Soujoudi)
-- **ME 185**: Continuum Mechanics (D. Steigmann)
-- **UGBA 104**: Introduction to Business Analytics (L. Yang)
-- **UGBA 105**: Leading People (E. Kass)
-- **UGBA 198**: Marketing for Gen Z (B. Zhang)
+- **ME 102B**: Mechatronics Design (H. Kazerooni) [[course review]] [[final project]]
+- **EE C128**: Feedback Control Systems (S. Soujoudi) [[cheatsheet]](./assets/pdfs/EEC128_final_cheatsheet.pdf) [[course review]]
+- **ME 185**: Continuum Mechanics (D. Steigmann) [[cheatsheet]](./assets/pdfs/185-final-reference-sheet.pdf)
+[[course review]]
+- **UGBA 104**: Introduction to Business Analytics (L. Yang) [[cheatsheet]](./assets/pdfs/UGBA104-final-cheatsheet.pdf) [[course review]]
+- **UGBA 105**: Leading People (E. Kass) [[course review]]
+- **UGBA 198**: Marketing for Gen Z (B. Zhang) [[course review]]
 ### Fall 2022
-- **EE 118**: Introduction to Optical Engineering (B. Kante)
-- **ME 103**: Experimentation and Measurements (M. Gollner)
-- **UGBA 101A**: Microeconomic Analysis ()
-- **UGBA 135**: Personal Finance ()
+- **EE 118**: Introduction to Optical Engineering (B. Kante) [[cheatsheet]](./assets/pdfs/EE118_cheatsheet.pdf)
+- **ME 103**: Experimentation and Measurements (M. Gollner) [[final report]](./assets/pdfs/ME103_Custom_Lab.pdf) 
+- **UGBA 101A**: Microeconomic Analysis (T. Fitch)
+- **UGBA 135**: Personal Finance (T. Odean)
 - **UGBA 196**: M.E.T. seminar (S. Chaudhuri)
 ### Spring 2022
-- **EE 120**: Signals and Systems (B. Ayazifar)
-- **ME 109**: Heat Transfer (C. Grigoropoulos)
-- **ME C180**: Engineering Analysis using FEM (S. Govindjee)
-- **PHILO 170**: Descartes ()
-- **UGBA 100**: Business Communication ()
+- **EE 120**: Signals and Systems (B. Ayazifar) [[cheatsheet]](./assets/pdfs/EE120-cheatsheet.pdf) [[course review]]
+- **ME 109**: Heat Transfer (C. Grigoropoulos) [[cheatsheet]](./assets/pdfs/ME109-cheatsheet.pdf) [[course review]]
+- **ME C180**: Engineering Analysis using FEM (S. Govindjee) [[cheatsheet]](./assets/pdfs/MEC180-cheatsheet.pdf) [[course review]]
+- **PHILO 170**: Descartes (T. Crockett)
+- **UGBA 100**: Business Communication
 - **UGBA 102B**: Managerial Accounting (J. Briginshaw)
 ### Fall 2021
 - **ME 100**: Electronics for the Internet of Things (G. Anwar)
@@ -94,13 +95,13 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
 - **EECS 16A**: Designing Information Devices and Systems I
 - **ENGIN 25**: Visualization for Design
 - **ENGIN 26**: Three-Dimensional Modeling for Design
-- **MATH 54**: Linear Algebra and Differential Equations
+- **MATH 54**: Linear Algebra and Differential Equations (N. Srivastava)
 - **MUSIC R1B**: Wes Anderson Soundtracks
 - **PHYSICS 7B**: Physics for Scientists and Engineers
 ### Fall 2019
 - **CE 92**: Introduction to Civil and Environmental Engineering
-- **DATA 8**: Foundations of Data Science
+- **DATA 8**: Foundations of Data Science (S. Sahai)
 - **ENGIN 7**: Introduction to Computer Programming for Scientists and Engineers (R. Alam)
-- **MATH 53**: Multivariable Calculus
+- **MATH 53**: Multivariable Calculus (K. Talaska) 
 - **UGBA 10**: Principles of Business
 - **UGBA 196**: M.E.T. seminar
