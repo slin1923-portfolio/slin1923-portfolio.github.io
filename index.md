@@ -19,7 +19,7 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
 
 - [Les guides pour les nuls](https://slin1923.github.io/) (theory notes). 
 
-- [Personal Blog](seanlin.dev)
+- [Personal Blog](https://seanlin.dev)
 
 # Projects
 
