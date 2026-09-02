@@ -19,7 +19,98 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
 
 # Projects
 
-*WIP transfer from old site*
+## 2026
+### [Cubli (WIP)](https://yoursite.com/project-1)
+[<img src="assets/images/cubli.jpg" width="300" alt="Project thumbnail">](https://yoursite.com/project-1)
+
+Inspired by the project of the same name from ETH Zurich, I decided to build my own little controls sandbox. The goal is to get the cube to balance on a corner or an edge. Tags: #controls #dynamics #PID #SS #LQR #systemID 
+
+## 2025
+
+### [Beyond EKF](https://yoursite.com/project-1)
+
+
+An exploratory navigation project that employs filtering algorithms not classically taught in school but widely used in the world.  Tags: #GPS #navigation #EKF #UKF #particle-filter #H-infinity
+
+### [A Perceptive Markowitz Model](https://yoursite.com/project-1)
+
+An exercise in optimization techniques: a simple portfolio composition optimizer.  Tags: #finance #genetic-algorithms #markowitz-model
+
+### [Triac Light Dimmer](https://yoursite.com/project-1)
+[<img src="assets/images/triac.jpeg" width="300" alt="Project thumbnail">](https://yoursite.com/project-1)
+
+A showcasing of power electronic principles, all to dim a light. Tags: #power-electronics #rectifiers #converters #FETs
+
+## 2024
+### [Wendy II](https://yoursite.com/project-1)
+[<img src="assets/images/Wendy_II.jpg" width="300" alt="Project thumbnail">](https://yoursite.com/project-1)
+
+Completely unrelated to Wendy I, this is a propulsion system test-bench that I designed for electric propellers. Tags: #dynamics #propulsion #instrumentation #embedded-systems #RPi5
+
+### [Airship Aerodynamics](https://yoursite.com/project-1)
+[<img src="assets/images/CFD_HyLighter_cool.png" width="300" alt="Project thumbnail">](https://yoursite.com/project-1)
+
+My first CFD project was to characterize the aerodynamic coefficients of an airship's envelope across varying attitudes. Tags:#CFD #simulation #aerodynamics
+
+### [Wendy I](https://yoursite.com/project-1)
+[<img src="assets/images/Wendy Labeled 2.png" width="300" alt="Project thumbnail">](https://yoursite.com/project-1)
+
+An NDA-friendly account of my internship work with MIT-spinout De-Ice. Tags: #inverters #thermal-management #instrumentation #heat-transfer
+
+
+
+## 2023
+
+### [Parametric Design Learning (PaDeSa)](https://yoursite.com/project-1)
+[<img src="assets/images/PaDeSa.jpg" width="300" alt="Project thumbnail">](https://yoursite.com/project-1)
+
+A collaborative project riding the then-naiscent AI train.  If AI can generate images and videos, why can't it generate... 3D objects?  Tags: #engineering-design #regression #GAN #classification #RL
+
+### [Eggspresso](https://yoursite.com/project-1)
+[<img src="assets/images/Eggspresso_2.jpg" width="300" alt="Project thumbnail">](https://yoursite.com/project-1)
+
+My mechanical engineering capstone project.  An ambitious endeavor to have breakfast eggs be as easy as your Keurig coffee.  Tags: #mechatronics #manufacturing #design #prototyping #power
+
+### [Magnetic Levitation and Balanced Inverted Pendulum](https://yoursite.com/project-1)
+[<img src="assets/images/maglev.jpg" width="300" alt="Project thumbnail">](https://yoursite.com/project-1)
+
+We have graduated from simulink models to real-world systems.  #PID #SS-control #dynamics #modeling #robustness
+
+## 2022
+
+### [Qubesat](https://yoursite.com/project-1)
+[<img src="assets/images/qubesat.jpg" width="300" alt="Project thumbnail">](https://yoursite.com/project-1)
+
+The single project I dedicated the most of my time to at Berkeley. We tried to launch this shoe-sized satellite containing an experimental quantum gyroscope.  Tags: #satellite #bus #structures #avionics #thermal #NASA #Astra
+
+## 2021
+
+### [Voice Controlled Car](https://yoursite.com/project-1)
+[<img src="assets/images/sixt33n.jpg" width="300" alt="Project thumbnail">](https://yoursite.com/project-1)
+
+We used the most rudimentary of ML methods to teach a car to recognize 4 voice commands. Tags: #circuits #PCA #SVD #controls
+
+### [Bike Thief Violator](https://yoursite.com/project-1)
+[<img src="assets/images/ME 100 side.jpg" width="300" alt="Project thumbnail">](https://yoursite.com/project-1)
+
+My first true mechatronics project.  I had this contraption rigged to my bike for all my Berkeley years.  Tags: #mechatronics #ESP32 #IMU #H-bridge
+
+### [Mechanical Watch Escapement](https://yoursite.com/project-1)
+[<img src="assets/images/FBD3_Square.jpg" width="300" alt="Project thumbnail">](https://yoursite.com/project-1)
+
+A study on the internal dynamics of a mechanical watch.  Tags: #dynamics #pendulum #tensors
+
+## < 2020
+
+### [Build Your Own World](https://yoursite.com/project-1)
+[<img src="assets/images/BYOW.jpg" width="300" alt="Project thumbnail">](https://yoursite.com/project-1)
+
+A simple PvP game that served as an exercise in the usage of data structures. Tags: #game-design #data-structures #hashmaps #a-star
+
+### [Science Olympiad Builds](https://yoursite.com/project-1)
+[<img src="assets/images/towerblog.jpg" width="300" alt="Project thumbnail">](https://yoursite.com/project-1)
+
+I was an engineering specialist for my years as a competitor.  Here is my high school highlight reel. Tags: #tower, #boomilever, #helicopter, #mousetrap-vehicle, #optics, #wind power, #scioly. 
 
 # Courses
 ## Stanford
