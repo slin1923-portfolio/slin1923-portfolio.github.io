@@ -15,13 +15,11 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
 
 ### Other Links: 
 
-- [Resume/CV](./assets/pdfs/Sean_Lin_CV_8_26.pdf) 
-
-- [Les guides pour les nuls](https://slin1923.github.io/) (theory notes). 
-
-- [Personal Blog](https://seanlin.dev)
+[Resume/CV](./assets/pdfs/Sean_Lin_CV_8_26.pdf) &emsp; | &emsp; [Les guides pour les nuls](https://slin1923.github.io/) (theory notes) &emsp; | &emsp; [Personal Blog](https://seanlin.dev)
 
 # Projects
+
+*WIP transfer from old site*
 
 # Courses
 ## Stanford
