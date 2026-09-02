@@ -20,97 +20,217 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
 # Projects
 
 ## 2026
-### [Cubli (WIP)](https://yoursite.com/project-1)
-[<img src="assets/images/cubli.jpg" width="300" alt="Project thumbnail">](https://yoursite.com/project-1)
 
-Inspired by the project of the same name from ETH Zurich, I decided to build my own little controls sandbox. The goal is to get the cube to balance on a corner or an edge. Tags: #controls #dynamics #PID #SS #LQR #systemID 
+<div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
+  <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
+    <img src="assets/images/cubli.jpg" style="width:160px; height:120px; object-fit:cover; border-radius:10px;" alt="Cubli thumbnail">
+  </a>
+  <div>
+    <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Cubli (WIP)</a></h3>
+    <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">Inspired by the project of the same name from ETH Zurich, I decided to build my own little controls sandbox. The goal is to get the cube to balance on a corner or an edge.</p>
+    <div>
+      <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#controls</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#dynamics</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#PID</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#SS</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#LQR</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#systemID</span>
+    </div>
+  </div>
+</div>
 
 ## 2025
 
-### [Beyond EKF](https://yoursite.com/project-1)
+<div style="margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
+  <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Beyond EKF</a></h3>
+  <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">An exploratory navigation project that employs filtering algorithms not classically taught in school but widely used in the world.</p>
+  <div>
+    <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#GPS</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#navigation</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#EKF</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#UKF</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#particle-filter</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#H-infinity</span>
+  </div>
+</div>
 
+<div style="margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
+  <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">A Perceptive Markowitz Model</a></h3>
+  <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">An exercise in optimization techniques: a simple portfolio composition optimizer.</p>
+  <div>
+    <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#finance</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#genetic-algorithms</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#markowitz-model</span>
+  </div>
+</div>
 
-An exploratory navigation project that employs filtering algorithms not classically taught in school but widely used in the world.  Tags: #GPS #navigation #EKF #UKF #particle-filter #H-infinity
-
-### [A Perceptive Markowitz Model](https://yoursite.com/project-1)
-
-An exercise in optimization techniques: a simple portfolio composition optimizer.  Tags: #finance #genetic-algorithms #markowitz-model
-
-### [Triac Light Dimmer](https://yoursite.com/project-1)
-[<img src="assets/images/triac.jpeg" width="300" alt="Project thumbnail">](https://yoursite.com/project-1)
-
-A showcasing of power electronic principles, all to dim a light. Tags: #power-electronics #rectifiers #converters #FETs
+<div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
+  <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
+    <img src="assets/images/triac.jpeg" style="width:160px; height:120px; object-fit:cover; border-radius:10px;" alt="Triac Light Dimmer thumbnail">
+  </a>
+  <div>
+    <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Triac Light Dimmer</a></h3>
+    <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">A showcasing of power electronic principles, all to dim a light.</p>
+    <div>
+      <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#power-electronics</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#rectifiers</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#converters</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#FETs</span>
+    </div>
+  </div>
+</div>
 
 ## 2024
-### [Wendy II](https://yoursite.com/project-1)
-[<img src="assets/images/Wendy_II.jpg" width="300" alt="Project thumbnail">](https://yoursite.com/project-1)
 
-Completely unrelated to Wendy I, this is a propulsion system test-bench that I designed for electric propellers. Tags: #dynamics #propulsion #instrumentation #embedded-systems #RPi5
+<div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
+  <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
+    <img src="assets/images/Wendy_II.jpg" style="width:160px; height:120px; object-fit:cover; border-radius:10px;" alt="Wendy II thumbnail">
+  </a>
+  <div>
+    <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Wendy II</a></h3>
+    <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">Completely unrelated to Wendy I, this is a propulsion system test-bench that I designed for electric propellers.</p>
+    <div>
+      <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#dynamics</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#propulsion</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#instrumentation</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#embedded-systems</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#RPi5</span>
+    </div>
+  </div>
+</div>
 
-### [Airship Aerodynamics](https://yoursite.com/project-1)
-[<img src="assets/images/CFD_HyLighter_cool.png" width="300" alt="Project thumbnail">](https://yoursite.com/project-1)
+<div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
+  <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
+    <img src="assets/images/CFD_HyLighter_cool.png" style="width:160px; height:120px; object-fit:cover; border-radius:10px;" alt="Airship Aerodynamics thumbnail">
+  </a>
+  <div>
+    <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Airship Aerodynamics</a></h3>
+    <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">My first CFD project was to characterize the aerodynamic coefficients of an airship's envelope across varying attitudes.</p>
+    <div>
+      <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#CFD</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#simulation</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#aerodynamics</span>
+    </div>
+  </div>
+</div>
 
-My first CFD project was to characterize the aerodynamic coefficients of an airship's envelope across varying attitudes. Tags:#CFD #simulation #aerodynamics
-
-### [Wendy I](https://yoursite.com/project-1)
-[<img src="assets/images/Wendy Labeled 2.png" width="300" alt="Project thumbnail">](https://yoursite.com/project-1)
-
-An NDA-friendly account of my internship work with MIT-spinout De-Ice. Tags: #inverters #thermal-management #instrumentation #heat-transfer
-
-
+<div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
+  <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
+    <img src="assets/images/Wendy Labeled 2.png" style="width:160px; height:120px; object-fit:cover; border-radius:10px;" alt="Wendy I thumbnail">
+  </a>
+  <div>
+    <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Wendy I</a></h3>
+    <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">An NDA-friendly account of my internship work with MIT-spinout De-Ice.</p>
+    <div>
+      <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#inverters</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#thermal-management</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#instrumentation</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#heat-transfer</span>
+    </div>
+  </div>
+</div>
 
 ## 2023
 
-### [Parametric Design Learning (PaDeSa)](https://yoursite.com/project-1)
-[<img src="assets/images/PaDeSa.jpg" width="300" alt="Project thumbnail">](https://yoursite.com/project-1)
+<div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
+  <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
+    <img src="assets/images/PaDeSa.jpg" style="width:160px; height:120px; object-fit:cover; border-radius:10px;" alt="PaDeSa thumbnail">
+  </a>
+  <div>
+    <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Parametric Design Learning (PaDeSa)</a></h3>
+    <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">A collaborative project riding the then-nascent AI train. If AI can generate images and videos, why can't it generate... 3D objects?</p>
+    <div>
+      <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#engineering-design</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#regression</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#GAN</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#classification</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#RL</span>
+    </div>
+  </div>
+</div>
 
-A collaborative project riding the then-naiscent AI train.  If AI can generate images and videos, why can't it generate... 3D objects?  Tags: #engineering-design #regression #GAN #classification #RL
+<div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
+  <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
+    <img src="assets/images/Eggspresso_2.jpg" style="width:160px; height:120px; object-fit:cover; border-radius:10px;" alt="Eggspresso thumbnail">
+  </a>
+  <div>
+    <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Eggspresso</a></h3>
+    <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">My mechanical engineering capstone project. An ambitious endeavor to have breakfast eggs be as easy as your Keurig coffee.</p>
+    <div>
+      <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#mechatronics</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#manufacturing</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#design</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#prototyping</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#power</span>
+    </div>
+  </div>
+</div>
 
-### [Eggspresso](https://yoursite.com/project-1)
-[<img src="assets/images/Eggspresso_2.jpg" width="300" alt="Project thumbnail">](https://yoursite.com/project-1)
-
-My mechanical engineering capstone project.  An ambitious endeavor to have breakfast eggs be as easy as your Keurig coffee.  Tags: #mechatronics #manufacturing #design #prototyping #power
-
-### [Magnetic Levitation and Balanced Inverted Pendulum](https://yoursite.com/project-1)
-[<img src="assets/images/maglev.jpg" width="300" alt="Project thumbnail">](https://yoursite.com/project-1)
-
-We have graduated from simulink models to real-world systems.  #PID #SS-control #dynamics #modeling #robustness
+<div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
+  <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
+    <img src="assets/images/maglev.jpg" style="width:160px; height:120px; object-fit:cover; border-radius:10px;" alt="Magnetic Levitation thumbnail">
+  </a>
+  <div>
+    <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Magnetic Levitation and Balanced Inverted Pendulum</a></h3>
+    <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">We have graduated from Simulink models to real-world systems.</p>
+    <div>
+      <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#PID</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#SS-control</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#dynamics</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#modeling</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#robustness</span>
+    </div>
+  </div>
+</div>
 
 ## 2022
 
-### [Qubesat](https://yoursite.com/project-1)
-[<img src="assets/images/qubesat.jpg" width="300" alt="Project thumbnail">](https://yoursite.com/project-1)
-
-The single project I dedicated the most of my time to at Berkeley. We tried to launch this shoe-sized satellite containing an experimental quantum gyroscope.  Tags: #satellite #bus #structures #avionics #thermal #NASA #Astra
+<div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
+  <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
+    <img src="assets/images/qubesat.jpg" style="width:160px; height:120px; object-fit:cover; border-radius:10px;" alt="Qubesat thumbnail">
+  </a>
+  <div>
+    <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Qubesat</a></h3>
+    <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">The single project I dedicated the most of my time to at Berkeley. We tried to launch this shoe-sized satellite containing an experimental quantum gyroscope.</p>
+    <div>
+      <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#satellite</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#bus</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#structures</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#avionics</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#thermal</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#NASA</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#Astra</span>
+    </div>
+  </div>
+</div>
 
 ## 2021
 
-### [Voice Controlled Car](https://yoursite.com/project-1)
-[<img src="assets/images/sixt33n.jpg" width="300" alt="Project thumbnail">](https://yoursite.com/project-1)
+<div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
+  <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
+    <img src="assets/images/sixt33n.jpg" style="width:160px; height:120px; object-fit:cover; border-radius:10px;" alt="Voice Controlled Car thumbnail">
+  </a>
+  <div>
+    <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Voice Controlled Car</a></h3>
+    <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">We used the most rudimentary of ML methods to teach a car to recognize 4 voice commands.</p>
+    <div>
+      <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#circuits</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#PCA</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#SVD</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#controls</span>
+    </div>
+  </div>
+</div>
 
-We used the most rudimentary of ML methods to teach a car to recognize 4 voice commands. Tags: #circuits #PCA #SVD #controls
+<div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
+  <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
+    <img src="assets/images/ME 100 side.jpg" style="width:160px; height:120px; object-fit:cover; border-radius:10px;" alt="Bike Thief Violator thumbnail">
+  </a>
+  <div>
+    <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Bike Thief Violator</a></h3>
+    <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">My first true mechatronics project. I had this contraption rigged to my bike for all my Berkeley years.</p>
+    <div>
+      <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#mechatronics</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#ESP32</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#IMU</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#H-bridge</span>
+    </div>
+  </div>
+</div>
 
-### [Bike Thief Violator](https://yoursite.com/project-1)
-[<img src="assets/images/ME 100 side.jpg" width="300" alt="Project thumbnail">](https://yoursite.com/project-1)
-
-My first true mechatronics project.  I had this contraption rigged to my bike for all my Berkeley years.  Tags: #mechatronics #ESP32 #IMU #H-bridge
-
-### [Mechanical Watch Escapement](https://yoursite.com/project-1)
-[<img src="assets/images/FBD3_Square.jpg" width="300" alt="Project thumbnail">](https://yoursite.com/project-1)
-
-A study on the internal dynamics of a mechanical watch.  Tags: #dynamics #pendulum #tensors
+<div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
+  <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
+    <img src="assets/images/FBD3_Square.jpg" style="width:160px; height:120px; object-fit:cover; border-radius:10px;" alt="Mechanical Watch Escapement thumbnail">
+  </a>
+  <div>
+    <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Mechanical Watch Escapement</a></h3>
+    <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">A study on the internal dynamics of a mechanical watch.</p>
+    <div>
+      <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#dynamics</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#pendulum</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#tensors</span>
+    </div>
+  </div>
+</div>
 
 ## < 2020
 
-### [Build Your Own World](https://yoursite.com/project-1)
-[<img src="assets/images/BYOW.jpg" width="300" alt="Project thumbnail">](https://yoursite.com/project-1)
+<div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
+  <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
+    <img src="assets/images/BYOW.jpg" style="width:160px; height:120px; object-fit:cover; border-radius:10px;" alt="Build Your Own World thumbnail">
+  </a>
+  <div>
+    <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Build Your Own World</a></h3>
+    <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">A simple PvP game that served as an exercise in the usage of data structures.</p>
+    <div>
+      <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#game-design</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#data-structures</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#hashmaps</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#a-star</span>
+    </div>
+  </div>
+</div>
 
-A simple PvP game that served as an exercise in the usage of data structures. Tags: #game-design #data-structures #hashmaps #a-star
-
-### [Science Olympiad Builds](https://yoursite.com/project-1)
-[<img src="assets/images/towerblog.jpg" width="300" alt="Project thumbnail">](https://yoursite.com/project-1)
-
-I was an engineering specialist for my years as a competitor.  Here is my high school highlight reel. Tags: #tower, #boomilever, #helicopter, #mousetrap-vehicle, #optics, #wind power, #scioly. 
+<div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
+  <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
+    <img src="assets/images/towerblog.jpg" style="width:160px; height:120px; object-fit:cover; border-radius:10px;" alt="Science Olympiad Builds thumbnail">
+  </a>
+  <div>
+    <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Science Olympiad Builds</a></h3>
+    <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">I was an engineering specialist for my years as a competitor. Here is my high school highlight reel.</p>
+    <div>
+      <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#tower</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#boomilever</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#helicopter</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#mousetrap-vehicle</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#optics</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#wind-power</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#scioly</span>
+    </div>
+  </div>
+</div>
+ 
 
 # Courses
 ## Stanford
