@@ -23,7 +23,7 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
 
 <div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
   <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
-    <img src="assets/images/cubli.jpg" style="width:160px; height:120px; object-fit:cover; border-radius:10px;" alt="Cubli thumbnail">
+    <img src="assets/images/cubli.jpg" style="width:320px; height:240px; object-fit:cover; border-radius:10px;" alt="Cubli thumbnail">
   </a>
   <div>
     <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Cubli (WIP)</a></h3>
@@ -54,7 +54,7 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
 
 <div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
   <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
-    <img src="assets/images/triac.jpeg" style="width:160px; height:120px; object-fit:cover; border-radius:10px;" alt="Triac Light Dimmer thumbnail">
+    <img src="assets/images/triac.jpeg" style="width:320px; height:240px; object-fit:cover; border-radius:10px;" alt="Triac Light Dimmer thumbnail">
   </a>
   <div>
     <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Triac Light Dimmer</a></h3>
@@ -69,7 +69,7 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
 
 <div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
   <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
-    <img src="assets/images/Wendy_II.jpg" style="width:160px; height:120px; object-fit:cover; border-radius:10px;" alt="Wendy II thumbnail">
+    <img src="assets/images/wendy_II.jpg" style="width:320px; height:240px; object-fit:cover; border-radius:10px;" alt="Wendy II thumbnail">
   </a>
   <div>
     <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Wendy II</a></h3>
@@ -82,7 +82,7 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
 
 <div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
   <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
-    <img src="assets/images/CFD_HyLighter_cool.png" style="width:160px; height:120px; object-fit:cover; border-radius:10px;" alt="Airship Aerodynamics thumbnail">
+    <img src="assets/images/CFD_HyLighter_cool.png" style="width:320px; height:240px; object-fit:cover; border-radius:10px;" alt="Airship Aerodynamics thumbnail">
   </a>
   <div>
     <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Airship Aerodynamics</a></h3>
@@ -95,7 +95,7 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
 
 <div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
   <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
-    <img src="assets/images/Wendy Labeled 2.png" style="width:160px; height:120px; object-fit:cover; border-radius:10px;" alt="Wendy I thumbnail">
+    <img src="assets/images/Wendy Labeled 2.png" style="width:320px; height:240px; object-fit:cover; border-radius:10px;" alt="Wendy I thumbnail">
   </a>
   <div>
     <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Wendy I</a></h3>
@@ -110,7 +110,7 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
 
 <div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
   <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
-    <img src="assets/images/PaDeSa.jpg" style="width:160px; height:120px; object-fit:cover; border-radius:10px;" alt="PaDeSa thumbnail">
+    <img src="assets/images/PaDeSa.jpg" style="width:320px; height:240px; object-fit:cover; border-radius:10px;" alt="PaDeSa thumbnail">
   </a>
   <div>
     <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Parametric Design Learning (PaDeSa)</a></h3>
@@ -123,7 +123,7 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
 
 <div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
   <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
-    <img src="assets/images/Eggspresso_2.jpg" style="width:160px; height:120px; object-fit:cover; border-radius:10px;" alt="Eggspresso thumbnail">
+    <img src="assets/images/Eggspresso_2.jpg" style="width:320px; height:240px; object-fit:cover; border-radius:10px;" alt="Eggspresso thumbnail">
   </a>
   <div>
     <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Eggspresso</a></h3>
@@ -136,7 +136,7 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
 
 <div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
   <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
-    <img src="assets/images/maglev.jpg" style="width:160px; height:120px; object-fit:cover; border-radius:10px;" alt="Magnetic Levitation thumbnail">
+    <img src="assets/images/maglev.jpg" style="width:320px; height:240px; object-fit:cover; border-radius:10px;" alt="Magnetic Levitation thumbnail">
   </a>
   <div>
     <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Magnetic Levitation and Balanced Inverted Pendulum</a></h3>
@@ -151,7 +151,7 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
 
 <div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
   <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
-    <img src="assets/images/qubesat.jpg" style="width:160px; height:120px; object-fit:cover; border-radius:10px;" alt="Qubesat thumbnail">
+    <img src="assets/images/qubesat.jpg" style="width:320px; height:240px; object-fit:cover; border-radius:10px;" alt="Qubesat thumbnail">
   </a>
   <div>
     <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Qubesat</a></h3>
@@ -166,7 +166,7 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
 
 <div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
   <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
-    <img src="assets/images/sixt33n.jpg" style="width:160px; height:120px; object-fit:cover; border-radius:10px;" alt="Voice Controlled Car thumbnail">
+    <img src="assets/images/sixt33n.jpg" style="width:320px; height:240px; object-fit:cover; border-radius:10px;" alt="Voice Controlled Car thumbnail">
   </a>
   <div>
     <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Voice Controlled Car</a></h3>
@@ -179,7 +179,7 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
 
 <div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
   <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
-    <img src="assets/images/ME 100 side.jpg" style="width:160px; height:120px; object-fit:cover; border-radius:10px;" alt="Bike Thief Violator thumbnail">
+    <img src="assets/images/me100.jpg" style="width:320px; height:240px; object-fit:cover; border-radius:10px;" alt="Bike Thief Violator thumbnail">
   </a>
   <div>
     <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Bike Thief Violator</a></h3>
@@ -192,7 +192,7 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
 
 <div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
   <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
-    <img src="assets/images/FBD3_Square.jpg" style="width:160px; height:120px; object-fit:cover; border-radius:10px;" alt="Mechanical Watch Escapement thumbnail">
+    <img src="assets/images/FBD3_Square.jpg" style="width:320px; height:240px; object-fit:cover; border-radius:10px;" alt="Mechanical Watch Escapement thumbnail">
   </a>
   <div>
     <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Mechanical Watch Escapement</a></h3>
@@ -207,7 +207,7 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
 
 <div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
   <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
-    <img src="assets/images/BYOW.jpg" style="width:160px; height:120px; object-fit:cover; border-radius:10px;" alt="Build Your Own World thumbnail">
+    <img src="assets/images/BYOW.jpg" style="width:320px; height:240px; object-fit:cover; border-radius:10px;" alt="Build Your Own World thumbnail">
   </a>
   <div>
     <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Build Your Own World</a></h3>
@@ -220,7 +220,7 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
 
 <div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
   <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
-    <img src="assets/images/towerblog.jpg" style="width:160px; height:120px; object-fit:cover; border-radius:10px;" alt="Science Olympiad Builds thumbnail">
+    <img src="assets/images/towerblog.jpg" style="width:320px; height:240px; object-fit:cover; border-radius:10px;" alt="Science Olympiad Builds thumbnail">
   </a>
   <div>
     <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Science Olympiad Builds</a></h3>
@@ -230,7 +230,6 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
     </div>
   </div>
 </div>
- 
 
 # Courses
 ## Stanford
