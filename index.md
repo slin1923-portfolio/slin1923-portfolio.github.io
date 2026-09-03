@@ -5,6 +5,8 @@ title: Home
 
 # Overview
 
+*Note as of August 2026: I am currently in the process of a content migration from what was my previous site. Please excuse missing content, I am either in the process of documenting it or trasnferring it.  Thanks!*
+
 Hi!  Welcome to my engineering portfolio!  
 
 My name is Sean Lin.  I am an astronautical engineer (specializing in spacecraft GNC) and I have been making for forever.  Here you can find all the things I have built (or am in the process of building) as well as technical documentation.  
@@ -15,7 +17,7 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
 
 ### Other Links: 
 
-[Resume/CV](./assets/pdfs/Sean_Lin_CV_8_26.pdf) &emsp; | &emsp; [Les guides pour les nuls](https://slin1923.github.io/) (theory notes) &emsp; | &emsp; [Personal Blog](https://seanlin.dev)
+[Resume/CV](./assets/pdfs/Sean_Lin_CV_8_26.pdf) &emsp; | &emsp; [Les guides pour les nuls](https://slin1923.github.io/) &emsp; | &emsp; [Personal Blog](https://seanlin.dev)
 
 # Projects
 
@@ -238,23 +240,23 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
 - **EE364A**: Convex Optimization (S. Boyd)
 - **16.S897**: Spacecraft ADCS (Z. Manchester)
 ### Spring 2026
-- **AA212**: Advanced Linear Feedback Control (M. Schwager)
-- **AA283**: Aircraft and Rocket Propulsion (T. Lee)
+- **AA212**: Advanced Linear Feedback Control (M. Schwager) [[cheatsheet]](./assets/pdfs/212_compiled_notes.pdf)
+- **AA283**: Aircraft and Rocket Propulsion (T. Lee) [[cheatsheet]](./assets/pdfs/AA283_cheatsheet.pdf)
 ### Winter 2026
-- **AA279A**: Space Mechanics (A. Ermakov)
-- **OCEANS 261H**: Marine Invertebrate Zoology (R. Elahi)
+- **AA279A**: Space Mechanics (A. Ermakov) [[cheatsheet]](./assets/pdfs/279A_Final_Cheatsheet.pdf)
+- **OCEANS 261H**: Marine Invertebrate Zoology (R. Elahi) [[field notebook]]()
 ### Fall 2025
-- **AA210A**: Fundamentals of Compressible Flow (K. Hara)
-- **AA272**: Global Positioning Systems (G. Gao)
+- **AA210A**: Fundamentals of Compressible Flow (K. Hara) [[cheatsheet]](./assets/pdfs/210A%20Final%20Cheatsheet.pdf)
+- **AA272**: Global Positioning Systems (G. Gao) [[project]](./assets/pdfs/Beyond%20EKF-%20AA272%20Final.pdf)
 - **AA274**: Principals of Robot Autonomy (M. Schwager)
 ### Spring 2025
-- **AA203**: Optimal Control (M. Pavone)
-- **AA222**: Engineering Design Optimization (M. Kochenderfer)
+- **AA203**: Optimal Control (M. Pavone) [[cheatsheet]](./assets/pdfs/203_cheatsheet.pdf)
+- **AA222**: Engineering Design Optimization (M. Kochenderfer) [[cheatsheet]](./assets/pdfs/222_cheatsheet.pdf) [[project]](./assets/pdfs/A_Perceptive_Markowitz_Model.pdf)
 - **EE253**: Power Electronics (J. Rivas)
 ### Fall 2023
-- **AA242**: Classical Dynamics (S. Close)
-- **AA228**: Decision Making Under Uncertainty (M. Kochenderfer)
-- **CS229**: Machine Learning (A. Ng)
+- **AA242**: Classical Dynamics (S. Close) [[cheatsheet]](./assets/pdfs/242_cheatsheet.pdf) [[report]](./assets/pdfs/Passive_Impulsive_Cube_Balancing.pdf)
+- **AA228**: Decision Making Under Uncertainty (M. Kochenderfer) [[cheatsheet]](./assets/pdfs/228_cheatsheet.pdf) [[report]](./assets/pdfs/Parametric_Design_Learning.pdf)
+- **CS229**: Machine Learning (A. Ng) [[cheatsheet]](./assets/pdfs/229_cheatsheet.pdf) [[project]](./assets/pdfs/PaDeSA.pdf)
 
 ## Berkeley
 
