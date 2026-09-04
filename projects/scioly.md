@@ -136,7 +136,7 @@ As mentioned earlier, the length of the rotor axes have an effect on the total r
 Nonetheless, I ended up making the right choice going for the multiplier with the Chinook design. Many teams I observed at competitions that year came with a similar mindset and willingness to try something new. Despite the very quick development of a new kit in the market, I constructed my design prior to the existence of the kit. For that brief time window, I was truly innovating! I felt value return to this engineering event. Sure, my crude design ended up being no match for the perfectionist design of the kit-makers, but at least I was being original.  Here's the video of my best flight. 
 
 <figure align="center">
-  <iframe width="560" height="315" src="https://youtu.be/embed/Ex4uJPqKURA" title="My best flight" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Ex4uJPqKURA" title="My best flight" allowfullscreen></iframe>
 </figure>
 
 
