@@ -38,8 +38,8 @@ The final question I get about this design is: why this particular truss structu
 The specifications of the event in 2018 in fact did not change from the previous year except for one key difference. The tower was no longer allowed to have a single continuous beam from head to toe. Instead, it had to have a discontinuity at at most 20 cm from the base. The top section of the tower now had to be straight and the bottom section needed to be tapered in order to meet the base dimension specifications.
 
 <figure align="center">
-  <img src="/assets/images/scioly/tower2018.png" width="300">
-  <img src="/assets/images/scioly/tower2018v2.jpeg" width="300">
+  <img src="/assets/images/scioly/tower2018.jpg" width="300">
+  <img src="/assets/images/scioly/tower2018v2.png" width="300">
 </figure>
 
 As you can see, I had multiple final designs in 2018. My first design was clearly not as ambitious as the second, only aiming to meet basic specifications with no fancy truss structure. I chose to use evenly spaced "X" trusses for the bottom section and a simple zig-zag pattern of trusses for the top section. The trick with these towers was actually the precision. After a year of tower-building experience, I decided to create a jig that would help me maintain perfect beam straightness as I glued the trusses on the top section. The bottom section was created separately, and the trickiest aspect of this entire process was making sure the top and bottom sections aligned perfectly and level. Imperfect alignment meant that the beam cross sections at the discontinuity would not see complete coverage, causing potential for failure at the joint. Imperfect levelling would cause the straight section of the tower to rest at a tilt, causing for a disastrous failure due to imbalance. Regardless, once I got the craftsmanship down, this trivial design proved extremely effective.
@@ -52,7 +52,7 @@ I ended up using my first design at the national competition, which was a mistak
 
 Tower building was unquestionably the Science Olympiad event I was most dedicated to. In a way, I regret spending so much time trying to perfect a design as I chased a superficial medal. The desire of being presented the award on-stage was motivated by vanity. Aside from the initial ideation of the design and truss structure I would use, I did not learn anything from the repetitiveness. I sometimes wonder at the opportunity cost of my unhealthy dedication. I was sacrificing quality time with friends and family in order to perfect my craftsmanship. Regardless, I can proudly say that I do not regret the experience as a whole. The spirit of Engineering is all about patience and resilience towards failure. Perfection is not achieved overnight, and the years I spent building structures for Science Olympiad have driven that home hard.
 
-<div align="center">
+<div align="center" markdown="1">
 
 |  | 2017 Design | 2018 Design 1 | 2018 Design 2 |
 |----------|----------|----------|----------|
@@ -109,7 +109,7 @@ For anyone who is unfamiliar with the classic design of these helicopters, I wil
   <img src="/assets/images/scioly/helicopter diagram.jpg" width="600">
 </figure>
 <figure align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=7Ngk_xODVW8" title="Helicopter demonstration" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/7Ngk_xODVW8" title="Helicopter demonstration" allowfullscreen></iframe>
 </figure>
 
 In fact, this design became so reliable that Science Olympiad created its own step-by-step kit that contains all the necessary materials and instructions for construction. The kit included thin carbon fiber rods and laser-cut wood pieces to optimize the weight of the helicopter and also included an extra rod attachable to the very tip of the top rotor to prevent the rotors from directly contacting the ceiling when flying (which could potentially damage the copter mid-flight). Due to the popularity of this kit design, I personally felt that much of the engineering spirit of the event became lost. Competitions saw team after team with identical designs come to fly, and the longest flight times ended up being awarded to the team that was able to make their helicopter the neatest. When the specifications (such as max rotor diameter and minimum helicopter weight) were changed between years, the kit would optimize accordingly. Teams who chose to deviate from the kit design and place faith in their own innovative abilities usually did not stand a chance.
@@ -136,7 +136,7 @@ As mentioned earlier, the length of the rotor axes have an effect on the total r
 Nonetheless, I ended up making the right choice going for the multiplier with the Chinook design. Many teams I observed at competitions that year came with a similar mindset and willingness to try something new. Despite the very quick development of a new kit in the market, I constructed my design prior to the existence of the kit. For that brief time window, I was truly innovating! I felt value return to this engineering event. Sure, my crude design ended up being no match for the perfectionist design of the kit-makers, but at least I was being original.  Here's the video of my best flight. 
 
 <figure align="center">
-  <iframe width="560" height="315" src="https://youtu.be/Ex4uJPqKURA" title="My best flight" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://youtu.be/embed/Ex4uJPqKURA" title="My best flight" allowfullscreen></iframe>
 </figure>
 
 
