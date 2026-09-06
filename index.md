@@ -208,11 +208,11 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
 ## < 2020
 
 <div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
-  <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
+  <a href="https://github.com/slin1923/BYOW" style="flex-shrink:0;">
     <img src="assets/images/BYOW.jpg" style="width:320px; height:240px; object-fit:cover; border-radius:10px;" alt="Build Your Own World thumbnail">
   </a>
   <div>
-    <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Build Your Own World</a></h3>
+    <h3 style="margin:0 0 8px 0;"><a href="https://github.com/slin1923/BYOW" style="text-decoration:none; color:#1a1a1a;">Build Your Own World</a></h3>
     <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">A simple PvP game that served as an exercise in the usage of data structures.</p>
     <div>
       <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#game-design</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#data-structures</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#hashmaps</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#a-star</span>
