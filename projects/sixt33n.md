@@ -35,6 +35,6 @@ Lastly, yet most importantly, the car needs to understand my commands. The car i
 Sixt33n is alive!  A simple car that can hear -> think -> drive. 
 
 <figure align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/v=O_f_HiLnOQg" title="Sixt33n's test drive" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/O_f_HiLnOQg" title="Sixt33n's test drive" allowfullscreen></iframe>
 </figure>
 
