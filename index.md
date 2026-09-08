@@ -184,12 +184,12 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
 </div>
 
 <div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
-  <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
+  <a href="../projects/me100.md" style="flex-shrink:0;">
     <img src="assets/images/me100.jpg" style="width:320px; height:240px; object-fit:cover; border-radius:10px;" alt="Bike Thief Violator thumbnail">
   </a>
   <div>
-    <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Bike Thief Violator</a></h3>
-    <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">My first true mechatronics project. I had this contraption rigged to my bike for all my Berkeley years.</p>
+    <h3 style="margin:0 0 8px 0;"><a href="../projects/me100.md" style="text-decoration:none; color:#1a1a1a;">Bike Thief Violator</a></h3>
+    <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">My first original mechatronics project which gives the conniving bike thief an unscheduled prostate exam. </p>
     <div>
       <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#mechatronics</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#ESP32</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#IMU</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#H-bridge</span>
     </div>
