@@ -101,13 +101,13 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
 
 <div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
   <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
-    <img src="assets/images/Wendy Labeled 2.png" style="width:320px; height:240px; object-fit:cover; border-radius:10px;" alt="Wendy I thumbnail">
+    <img src="assets/images/Wendy Labeled 2.jpg" style="width:320px; height:240px; object-fit:cover; border-radius:10px;" alt="Wendy I thumbnail">
   </a>
   <div>
     <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Wendy I</a></h3>
     <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">An NDA-friendly account of my internship work with MIT-spinout De-Ice.</p>
     <div>
-      <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#inverters</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#thermal-management</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#instrumentation</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#heat-transfer</span>
+      <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#inverters</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#thermal-management</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#instrumentation</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#heat-transfer</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#IR imaging</span>
     </div>
   </div>
 </div>
@@ -178,17 +178,17 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
     <h3 style="margin:0 0 8px 0;"><a href="../projects/sixt33n.html" style="text-decoration:none; color:#1a1a1a;">Voice Controlled Car</a></h3>
     <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">We used the most rudimentary of ML methods to teach a car to recognize 4 voice commands.</p>
     <div>
-      <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#circuits</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#PCA</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#SVD</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#controls</span>
+      <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#circuits</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#voice_signals</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#PCA</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#SVD</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#controls</span>
     </div>
   </div>
 </div>
 
 <div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
-  <a href="../projects/me100.md" style="flex-shrink:0;">
+  <a href="../projects/me100.html" style="flex-shrink:0;">
     <img src="assets/images/me100.jpg" style="width:320px; height:240px; object-fit:cover; border-radius:10px;" alt="Bike Thief Violator thumbnail">
   </a>
   <div>
-    <h3 style="margin:0 0 8px 0;"><a href="../projects/me100.md" style="text-decoration:none; color:#1a1a1a;">Bike Thief Violator</a></h3>
+    <h3 style="margin:0 0 8px 0;"><a href="../projects/me100.html" style="text-decoration:none; color:#1a1a1a;">Bike Thief Violator</a></h3>
     <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">My first original mechatronics project which gives the conniving bike thief an unscheduled prostate exam. </p>
     <div>
       <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#mechatronics</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#ESP32</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#IMU</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#H-bridge</span>
@@ -219,7 +219,7 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
     <h3 style="margin:0 0 8px 0;"><a href="https://github.com/slin1923/BYOW" style="text-decoration:none; color:#1a1a1a;">Build Your Own World</a></h3>
     <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">A simple PvP game that served as an exercise in the usage of data structures.</p>
     <div>
-      <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#game-design</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#data-structures</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#hashmaps</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#a-star</span>
+      <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#game-design</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#data-structures</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#graph-theory</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#java</span>
     </div>
   </div>
 </div>
