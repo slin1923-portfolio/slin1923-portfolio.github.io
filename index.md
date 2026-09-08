@@ -17,7 +17,11 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
 
 ### Other Links: 
 
-[Resume/CV](./assets/pdfs/Sean_Lin_CV_8_26.pdf) &emsp; | &emsp; [Les guides pour les nuls](https://slin1923.github.io/) &emsp; | &emsp; [Personal Blog](https://seanlin.dev)
+<div align="center">
+  <a href="./assets/pdfs/Sean_Lin_CV_8_26.pdf" style="background-color: #0969da; color: white; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-weight: bold; margin: 0 4px; display: inline-block;">Resume / CV</a>
+  <a href="https://slin1923.github.io/" style="background-color: #2da44e; color: white; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-weight: bold; margin: 0 4px; display: inline-block;">Les guides pour les nuls</a>
+  <a href="https://seanlin.dev" style="background-color: #8250df; color: white; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-weight: bold; margin: 0 4px; display: inline-block;">Personal Blog</a>
+</div>
 
 # Projects
 
@@ -167,11 +171,11 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
 ## 2021
 
 <div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
-  <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
+  <a href="../projects/sixt33n.html" style="flex-shrink:0;">
     <img src="assets/images/sixt33n.jpg" style="width:320px; height:240px; object-fit:cover; border-radius:10px;" alt="Voice Controlled Car thumbnail">
   </a>
   <div>
-    <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Voice Controlled Car</a></h3>
+    <h3 style="margin:0 0 8px 0;"><a href="../projects/sixt33n.html" style="text-decoration:none; color:#1a1a1a;">Voice Controlled Car</a></h3>
     <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">We used the most rudimentary of ML methods to teach a car to recognize 4 voice commands.</p>
     <div>
       <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#circuits</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#PCA</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#SVD</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#controls</span>
