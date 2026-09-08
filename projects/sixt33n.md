@@ -32,7 +32,7 @@ Lastly, yet most importantly, the car needs to understand my commands. The car i
   <figcaption> My 4 voice commands converted to voltage signals </figcaption>
 </figure>
 
-Sixt33n is alive!  A simple car that can hear -> think -> drive. 
+Sixt33n is alive!  A simple car that can hear -> think -> drive.  See the final closed-loop [firmware](https://github.com/slin1923/sixt33n/blob/main/closed_loop/closed_loop.ino).
 
 <figure align="center">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/O_f_HiLnOQg" title="Sixt33n's test drive" allowfullscreen></iframe>
