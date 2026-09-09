@@ -5,15 +5,15 @@ title: Home
 
 # Overview
 
-*Note as of August 2026: I am currently in the process of a content migration from what was my previous site. Please excuse missing content, I am either in the process of documenting it or trasnferring it.  Thanks!*
+*Note as of August 2026: I am currently in the process of a content migration from what was my previous site. Please excuse missing content, I am either in the process of documenting it or transferring it.  Thanks!*
 
 Hi!  Welcome to my engineering portfolio!  
 
-My name is Sean Lin.  I am an astronautical engineer (specializing in spacecraft GNC) and I have been making for forever.  Here you can find all the things I have built (or am in the process of building) as well as technical documentation.  
+My name is Sean Lin.  I am an astronautical engineer (specializing in spacecraft GNC) and I have been making for forever.  Here you can find all the things I have built. 
 
-I also have included an archive of my coursework through my years of education with their associated cheatsheets, projects, or an earnest course review. 
+I also have included my academic coursework with their associated cheatsheets, projects, or an earnest course review. 
 
-I enjoy both hardware and software in the name of learning, utility, or art.  Peruse everything I've done as an engineer, from my earliest high school tinkerings to my latest endeavors, whatever those may be. 
+I enjoy both hardware and software in the name of learning, utility, or art.  Peruse everything I've done as an engineer, from my earliest high school tinkerings to my latest weekend timekillers. 
 
 ### Other Links: 
 
@@ -42,25 +42,35 @@ I enjoy both hardware and software in the name of learning, utility, or art.  Pe
 
 ## 2025
 
-<div style="margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
-  <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Beyond EKF</a></h3>
-  <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">An exploratory navigation project that employs filtering algorithms not classically taught in school but widely used in the world.</p>
+<div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
+  <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
+    <img src="assets/images/beyond_EKF.jpg" style="width:320px; height:240px; object-fit:cover; border-radius:10px;" alt="Beyond EKF thumbnail">
+  </a>
   <div>
-    <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#GPS</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#navigation</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#EKF</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#UKF</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#particle-filter</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#H-infinity</span>
-  </div>
-</div>
-
-<div style="margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
-  <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">A Perceptive Markowitz Model</a></h3>
-  <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">An exercise in optimization techniques: a simple portfolio composition optimizer.</p>
-  <div>
-    <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#finance</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#genetic-algorithms</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#markowitz-model</span>
+    <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Beyond EKF</a></h3>
+    <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">An exploratory navigation project that employs filtering algorithms not classically taught in school but widely used in the world.</p>
+    <div>
+      <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#GPS</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#navigation</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#EKF</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#UKF</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#particle-filter</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#H-infinity</span>
+    </div>
   </div>
 </div>
 
 <div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
   <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
-    <img src="assets/images/triac.jpeg" style="width:320px; height:240px; object-fit:cover; border-radius:10px;" alt="Triac Light Dimmer thumbnail">
+    <img src="assets/images/PMM.jpg" style="width:320px; height:240px; object-fit:cover; border-radius:10px;" alt="A Perceptive Markowitz Model thumbnail">
+  </a>
+  <div>
+    <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">A Perceptive Markowitz Model</a></h3>
+    <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">An exercise in optimization techniques: a simple portfolio composition optimizer.</p>
+    <div>
+      <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#finance</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#genetic-algorithms</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#markowitz-model</span>
+    </div>
+  </div>
+</div>
+
+<div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
+  <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
+    <img src="assets/images/triac.jpg" style="width:320px; height:240px; object-fit:cover; border-radius:10px;" alt="Triac Light Dimmer thumbnail">
   </a>
   <div>
     <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Triac Light Dimmer</a></h3>
@@ -156,11 +166,11 @@ I enjoy both hardware and software in the name of learning, utility, or art.  Pe
 ## 2022
 
 <div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
-  <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
+  <a href="../projects/qubesat.html" style="flex-shrink:0;">
     <img src="assets/images/qubesat.jpg" style="width:320px; height:240px; object-fit:cover; border-radius:10px;" alt="Qubesat thumbnail">
   </a>
   <div>
-    <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Qubesat</a></h3>
+    <h3 style="margin:0 0 8px 0;"><a href="../projects/qubesat.html" style="text-decoration:none; color:#1a1a1a;">Qubesat</a></h3>
     <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">The single project I dedicated the most of my time to at Berkeley. We tried to launch this shoe-sized satellite containing an experimental quantum gyroscope.</p>
     <div>
       <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#satellite</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#bus</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#structures</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#avionics</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#thermal</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#NASA</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#Astra</span>
