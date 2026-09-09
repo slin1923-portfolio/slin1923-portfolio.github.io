@@ -100,11 +100,11 @@ I enjoy both hardware and software in the name of learning, utility, or art.  Pe
 </div>
 
 <div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
-  <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
+  <a href="../projects/wendy1.html" style="flex-shrink:0;">
     <img src="assets/images/Wendy Labeled 2.jpg" style="width:320px; height:240px; object-fit:cover; border-radius:10px;" alt="Wendy I thumbnail">
   </a>
   <div>
-    <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Wendy I</a></h3>
+    <h3 style="margin:0 0 8px 0;"><a href="../projects/wendy1.html" style="text-decoration:none; color:#1a1a1a;">Wendy I</a></h3>
     <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">An NDA-friendly account of my internship work with MIT-spinout De-Ice.</p>
     <div>
       <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#inverters</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#thermal-management</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#instrumentation</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#heat-transfer</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#IR imaging</span>
@@ -294,7 +294,7 @@ I enjoy both hardware and software in the name of learning, utility, or art.  Pe
 ### Spring 2021
 - **EECS 16B**: Designing Information Devices and Systems II (G. Ranade) [[course review]](./course_reviews/EE16B.md) [[cheatsheet]](./assets/pdfs/16B-cheatsheet.pdf)
 - **ME 40**: Thermodynamics [[course review]](./course_reviews/ME40.md)
-- **ME 104**: Engineering Mechanics II [[course review]](./course_reviews/ME104.md) [[cheatsheet]](./assets/pdfs/ME104-cheatsheet.pdf)
+- **ME 104**: Engineering Mechanics II [[course review]](./course_reviews/ME104.md)
 - **UGBA 101B**: Macroeconomic Analysis [[course review]](./course_reviews/UGBA101B.md)
 - **UGBA 102A**: Financial Accounting [[course review]](./course_reviews/UGBA102A.md)
 - **UGBA 107**: Business Ethics [[course review]](./course_reviews/UGBA107.md)
