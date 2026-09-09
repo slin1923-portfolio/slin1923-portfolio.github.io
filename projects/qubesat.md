@@ -3,8 +3,6 @@ layout: default
 title: Qubesat
 ---
 
-# Jump To
-- [Jump To](#jump-to)
 - [Qubesat 101](#qubesat-101)
 - [The Team](#the-team)
 - [Design](#design)
@@ -58,8 +56,8 @@ Outside of the students, we also worked closely with:
 </figure>
 
 <figure align="center">
-  <img src="/assets/images/qubesat/exploded_structure.png" width="300">
   <img src="/assets/images/qubesat/Top Plate.png" width="300">
+  <img src="/assets/images/qubesat/end plate.png" width="300">
   <figcaption>Top and End plate designs</figcaption>
 </figure>
 
