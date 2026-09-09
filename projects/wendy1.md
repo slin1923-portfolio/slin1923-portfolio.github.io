@@ -14,8 +14,8 @@ Anyway, I digress. Ironically, despite De-Ice's primary goal being to heat thing
 Thus, I present Wendy! Wendy is a test bench designed to control and monitor inverter cooling. She is named Wendy after the lead vocalist from Red Velvet, and her name is a play on the word "windy", since as you can probably guess, the inverters were fan-cooled.
 
 <figure align="center">
-  <img src="/assets/images/wendyI/wendy_labeled.jpg" width="400">
-  <img src="/assets/images/Wendy Labeled 2.jpg" width="400">
+  <img src="/assets/images/wendyI/wendy_labeled.jpg" width="500">
+  <img src="/assets/images/Wendy Labeled 2.jpg" width="500">
 </figure>
 
 # Problem Statement
@@ -25,7 +25,7 @@ The design goal of Wendy is to design a system that offers transparency to the t
 # Initial Concept & Requirements:
 
 <figure align="center">
-  <img src="/assets/images/wendyI/Wendy Concepts.jpg" width="600">
+  <img src="/assets/images/wendyI/Wendy Concepts.jpg" width="800">
 </figure>
 
 Above was the initial v1 sketch concept for Wendy. No need to explain it as it serves just as a cool visual. To get the obvious out of the way, the most important three requirements for Wendy were
@@ -103,7 +103,7 @@ This change in density is quite puzzling because it causes 2 changes that actual
 I really enjoyed solving this problem, and once again I will not bore you with the equations other than lazily slapping my whiteboarding picture here. At the end of the day, it turns out that all else held constant, the inverter will be worst-case 10% hotter at altitude.
 
 <figure align="center">
-  <img src="/assets/images/wendyI/box to bench correction factor.jpg" width="600">
+  <img src="/assets/images/wendyI/box to bench correction factor.jpg" width="800">
 </figure>
 
 # Extra
