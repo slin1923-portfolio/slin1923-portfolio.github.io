@@ -11,9 +11,9 @@ Hi!  Welcome to my engineering portfolio!
 
 My name is Sean Lin.  I am an astronautical engineer (specializing in spacecraft GNC) and I have been making for forever.  Here you can find all the things I have built (or am in the process of building) as well as technical documentation.  
 
-I also have included an archive of my coursework through my years of education.  For each course I have also recorded any meaningful projects, valuable cheatsheets, or a heartfelt review for those I felt deserved one. 
+I also have included an archive of my coursework through my years of education with their associated cheatsheets, projects, or an earnest course review. 
 
-My tastes are unconstrained.  I enjoy both hardware and software in the name of learning, utility, or art.  Peruse all my projects from my earliest high school tinkerings to my latest endeavors, whatever those may be. 
+I enjoy both hardware and software in the name of learning, utility, or art.  Peruse everything I've done as an engineer, from my earliest high school tinkerings to my latest endeavors, whatever those may be. 
 
 ### Other Links: 
 
@@ -265,13 +265,13 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
 ## Berkeley
 
 ### Spring 2023
-- **ME 102B**: Mechatronics Design (H. Kazerooni) [[course review]] [[final project]]
-- **EE C128**: Feedback Control Systems (S. Soujoudi) [[cheatsheet]](./assets/pdfs/EEC128_final_cheatsheet.pdf) [[course review]]
+- **ME 102B**: Mechatronics Design (H. Kazerooni) [[course review]](./course_reviews/ME102B.md) [[final project]]
+- **EE C128**: Feedback Control Systems (S. Soujoudi) [[cheatsheet]](./assets/pdfs/EEC128_final_cheatsheet.pdf) [[course review]](./course_reviews/EEC128.md)
 - **ME 185**: Continuum Mechanics (D. Steigmann) [[cheatsheet]](./assets/pdfs/185-final-reference-sheet.pdf)
-[[course review]]
-- **UGBA 104**: Introduction to Business Analytics (L. Yang) [[cheatsheet]](./assets/pdfs/UGBA104-final-cheatsheet.pdf) [[course review]]
-- **UGBA 105**: Leading People (E. Kass) [[course review]]
-- **UGBA 198**: Marketing for Gen Z (B. Zhang) [[course review]]
+[[course review]](./course_reviews/ME185.md)
+- **UGBA 104**: Introduction to Business Analytics (L. Yang) [[cheatsheet]](./assets/pdfs/UGBA104-final-cheatsheet.pdf) [[course review]](./course_reviews/UGBA104.md)
+- **UGBA 105**: Leading People (E. Kass) [[course review]](./course_reviews/UGBA105.md)
+- **UGBA 198**: Marketing for Gen Z (B. Zhang) [[course review]](./course_reviews/UGBA198.md)
 ### Fall 2022
 - **EE 118**: Introduction to Optical Engineering (B. Kante) [[cheatsheet]](./assets/pdfs/EE118_cheatsheet.pdf)
 - **ME 103**: Experimentation and Measurements (M. Gollner) [[final report]](./assets/pdfs/ME103_Custom_Lab.pdf) 
@@ -279,39 +279,39 @@ My tastes are unconstrained.  I enjoy both hardware and software in the name of 
 - **UGBA 135**: Personal Finance (T. Odean)
 - **UGBA 196**: M.E.T. seminar (S. Chaudhuri)
 ### Spring 2022
-- **EE 120**: Signals and Systems (B. Ayazifar) [[cheatsheet]](./assets/pdfs/EE120-cheatsheet.pdf) [[course review]]
-- **ME 109**: Heat Transfer (C. Grigoropoulos) [[cheatsheet]](./assets/pdfs/ME109-cheatsheet.pdf) [[course review]]
-- **ME C180**: Engineering Analysis using FEM (S. Govindjee) [[cheatsheet]](./assets/pdfs/MEC180-cheatsheet.pdf) [[course review]]
-- **PHILO 170**: Descartes (T. Crockett)
-- **UGBA 100**: Business Communication
-- **UGBA 102B**: Managerial Accounting (J. Briginshaw)
+- **EE 120**: Signals and Systems (B. Ayazifar) [[cheatsheet]](./assets/pdfs/EE120-cheatsheet.pdf) [[course review]](./course_reviews/EE120.md)
+- **ME 109**: Heat Transfer (C. Grigoropoulos) [[cheatsheet]](./assets/pdfs/ME109-cheatsheet.pdf) [[course review]](./course_reviews/ME109.md)
+- **ME C180**: Engineering Analysis using FEM (S. Govindjee) [[cheatsheet]](./assets/pdfs/MEC180-cheatsheet.pdf) [[course review]](./course_reviews/MEC180.md)
+- **PHILO 170**: Descartes (T. Crockett) [[essay]]()
+- **UGBA 100**: Business Communication [[course review]](./course_reviews/UGBA100.md)
+- **UGBA 102B**: Managerial Accounting (J. Briginshaw) [[course review]](./course_reviews/UGBA102B.md)
 ### Fall 2021
-- **ME 100**: Electronics for the Internet of Things (G. Anwar)
-- **ME 106**: Fluid Mechanics (R. Alam)
-- **ME 108**: Mechanical Behavior of Engineering Materials (G. O'Connell)
-- **ME 132**: Dynamic Systems and Feedback
-- **UGBA 106**: Marketing
+- **ME 100**: Electronics for the Internet of Things (G. Anwar) [[course review]](./course_reviews/ME100.md)
+- **ME 106**: Fluid Mechanics (R. Alam) [[course review]](./course_reviews/ME106.md) [[cheatsheet]](./assets/pdfs/ME106-cheatsheet.pdf)
+- **ME 108**: Mechanical Behavior of Engineering Materials (G. O'Connell) [[course review]](./course_reviews/ME108.md)
+- **ME 132**: Dynamic Systems and Feedback [[course review]](./course_reviews/ME132.md) [[cheatsheet]](./assets/pdfs/ME132-cheatsheet.pdf)
+- **UGBA 106**: Marketing [[course review]](./course_reviews/UGBA106.md)
 ### Spring 2021
-- **EECS 16B**: Designing Information Devices and Systems II
-- **ME 40**: Thermodynamics
-- **ME 104**: Engineering Mechanics II
-- **UGBA 101B**: Macroeconomic Analysis
-- **UGBA 102A**: Financial Accounting
-- **UGBA 107**: Business Ethics
+- **EECS 16B**: Designing Information Devices and Systems II (G. Ranade) [[course review]](./course_reviews/EE16B.md) [[cheatsheet]](./assets/pdfs/16B-cheatsheet.pdf)
+- **ME 40**: Thermodynamics [[course review]](./course_reviews/ME40.md)
+- **ME 104**: Engineering Mechanics II [[course review]](./course_reviews/ME104.md) [[cheatsheet]](./assets/pdfs/ME104-cheatsheet.pdf)
+- **UGBA 101B**: Macroeconomic Analysis [[course review]](./course_reviews/UGBA101B.md)
+- **UGBA 102A**: Financial Accounting [[course review]](./course_reviews/UGBA102A.md)
+- **UGBA 107**: Business Ethics [[course review]](./course_reviews/UGBA107.md)
 ### Fall 2020
-- **CS 61B**: Data Structures (J. Hug)
-- **CS 70**: Discrete Math (S. Rao)
-- **ECON 1**: Introduction to Economics
-- **ENGIN 27**: Introduction to Manufacturing and Tolerancing ()
-- **ME C85**: Introduction to Solid Mechanics (G. Gu)
-- **STAT 88**: Probability and Statistics in Data Science
+- **CS 61B**: Data Structures (J. Hug) [[course review]](./course_reviews/CS61B.md) 
+- **CS 70**: Discrete Math (S. Rao) [[course review]](./course_reviews/CS70.md)
+- **ECON 1**: Introduction to Economics [[course review]](./course_reviews/ECON1.md)
+- **ENGIN 27**: Introduction to Manufacturing and Tolerancing (S. McMains) [[course review]](./course_reviews/E27.md)
+- **ME C85**: Introduction to Solid Mechanics (G. Gu) [[course review]](./course_reviews/MEC85.md)
+- **STAT 88**: Probability and Statistics in Data Science (S. Stoyanov) [[course review]](./course_reviews/STAT88.md)
 ### Spring 2020
-- **EECS 16A**: Designing Information Devices and Systems I
-- **ENGIN 25**: Visualization for Design
-- **ENGIN 26**: Three-Dimensional Modeling for Design
-- **MATH 54**: Linear Algebra and Differential Equations (N. Srivastava)
+- **EECS 16A**: Designing Information Devices and Systems I [[course review]](./course_reviews/EE16A.md)
+- **ENGIN 25**: Visualization for Design (D.K. Lieu) [[course review]](./course_reviews/E25.md)
+- **ENGIN 26**: Three-Dimensional Modeling for Design (K. Youssefi) [[course review]](./course_reviews/E26.md)
+- **MATH 54**: Linear Algebra and Differential Equations (N. Srivastava) [[course review]](./course_reviews/MATH54.md) [[cheatsheet]](./assets/pdfs/54Finalcheatsheet.pdf)
 - **MUSIC R1B**: Wes Anderson Soundtracks
-- **PHYSICS 7B**: Physics for Scientists and Engineers
+- **PHYSICS 7B**: Physics for Scientists and Engineers (C. Bordel) [[course review]](./course_reviews/PHYS7B.md)
 ### Fall 2019
 - **CE 92**: Introduction to Civil and Environmental Engineering
 - **DATA 8**: Foundations of Data Science (S. Sahai)
