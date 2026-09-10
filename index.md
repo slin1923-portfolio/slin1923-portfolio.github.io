@@ -18,7 +18,7 @@ I enjoy both hardware and software in the name of learning, utility, or art.  Pe
 ### Other Links: 
 
 <div align="center">
-  <a href="./assets/pdfs/sean-lin-resume-CV-combined.pdf" style="background-color: #0969da; color: white; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-weight: bold; margin: 0 4px; display: inline-block;">Resume / CV</a>
+  <a href="./assets/pdfs/sean-lin-resume-cv.pdf" style="background-color: #0969da; color: white; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-weight: bold; margin: 0 4px; display: inline-block;">Resume / CV</a>
   <a href="https://slin1923.github.io/" style="background-color: #2da44e; color: white; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-weight: bold; margin: 0 4px; display: inline-block;">Les guides pour les nuls</a>
   <a href="https://seanlin.dev" style="background-color: #8250df; color: white; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-weight: bold; margin: 0 4px; display: inline-block;">Personal Blog</a>
 </div>
