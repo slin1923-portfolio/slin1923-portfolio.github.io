@@ -28,11 +28,11 @@ I enjoy both hardware and software in the name of learning, utility, or art.  Pe
 ## 2026
 
 <div style="display:flex; gap:20px; align-items:flex-start; margin-bottom:28px; padding-bottom:24px; border-bottom:1px solid #e5e5e5;">
-  <a href="https://yoursite.com/project-1" style="flex-shrink:0;">
+  <a href="../projects/cubli.html" style="flex-shrink:0;">
     <img src="assets/images/cubli.jpg" style="width:320px; height:240px; object-fit:cover; border-radius:10px;" alt="Cubli thumbnail">
   </a>
   <div>
-    <h3 style="margin:0 0 8px 0;"><a href="https://yoursite.com/project-1" style="text-decoration:none; color:#1a1a1a;">Cubli (WIP)</a></h3>
+    <h3 style="margin:0 0 8px 0;"><a href="../projects/cubli.html" style="text-decoration:none; color:#1a1a1a;">Cubli (WIP)</a></h3>
     <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">Inspired by the project of the same name from ETH Zurich, I decided to build my own little controls sandbox. The goal is to get the cube to balance on a corner or an edge.</p>
     <div>
       <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#controls</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#dynamics</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#PID</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#SS</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#LQR</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#systemID</span>
