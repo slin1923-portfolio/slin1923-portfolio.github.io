@@ -3,7 +3,7 @@ layout: default
 title: Cubli
 ---
 
-- [Todos \& Current Issues (for rapid personal reference)](#todos--current-issues-for-rapid-personal-reference)
+- [Todos + Current Issues (for rapid personal reference)](#todos--current-issues-for-rapid-personal-reference)
 - [Overview](#overview)
 - [Mechanical Parts](#mechanical-parts)
 - [Electronics](#electronics)
@@ -15,13 +15,14 @@ title: Cubli
     - [Analytical Variables](#analytical-variables)
   - [Frames of Reference](#frames-of-reference)
   - [Desired State-Space Realization](#desired-state-space-realization)
+  - [Dynamics Model $A, B$](#dynamics-model-a-b)
+  - [Measurement Model $C, D$](#measurement-model-c-d)
   - [Flywheel Inertia Calcs](#flywheel-inertia-calcs)
   - [Inertia Tensor Experiments](#inertia-tensor-experiments)
-  - [Measurement Model](#measurement-model)
-- [Torque-Based Motor Control](#torque-based-motor-control)
+- [Inner Loop Motor Torque Control](#inner-loop-motor-torque-control)
 
 
-# Todos & Current Issues (for rapid personal reference)
+# Todos + Current Issues (for rapid personal reference)
 
 - Finish torque-based motor inner-loop control
   - Need to fit data to a first-order model of motor output torque
@@ -159,7 +160,7 @@ Reminders
 
 # Modeling and Dynamics
 
-This is where the fun begins. A lot of dynamic modeling is analytical derivation. Full derivations can be found on the document linked below. On this page you will find key design decisions and results. 
+This is where the fun begins. A lot of dynamic modeling is analytical derivation. Full derivations can be found on the document linked below. On this page you will find key design decisions and results. Another large chunk of modeling is empirical, and involve experimental design and data collection.  You will also find those experiments and their results here. 
 
 ## Nomenclature and Values (for quick reference)
 
@@ -201,19 +202,74 @@ $$
 Getting the easy out of the way first, the definition for $y, u, A ,B, C, D$ should not require too much explanation.  
 - $y$ is my observation (measurement) vector and is simply the 6 raw numbers output by the MPU6050.  $a_i$ is linear acceleration along the $i$th axis [kgm/s^2] and $g_i$ is the angular velocity about the $i$th axis [rad/s]. For clarity, I indicate that this vector is expressed in $AF$ using subscripts. 
 - $u$ is my control input command vector and consists of the desired torque I want the 3 motors to output.  I indicate that this vector is expressed in $TF$, so each scalar term $\tau_{ic}$ corresponds directly with the output motor $i$. 
-- $A, B, C, D$ complete my linear state space model.  Of course, at this point I haven't found them yet, and it will require "some" math, but they will soon be nicely defined. 
+- $A, B, C, D$ complete my linear state space model.  Of course, at this point I haven't found them yet, and doing so will be sooo fun. 
 
 Justifying my choice of state vector definition $x$ requires deeper clarification and rationale. 
-$
+- **$\theta, \phi, \psi$ correspond to $X-Y'-Z'$ euler angles respectively**, and (assuming a stationary pivot point such that $O$ and $O'$ origin remain coincident) track the attitude of $O'$ relative to $O$ and hence Cubli's attitude. 
+- I did not use quaternions even though they are standard practice in aerospace because I am solving a regulation problem where my system stabilizes at $\theta = \phi = \dot{\theta} = \dot{\phi} = 0$, so I felt quaternions for the sake of avoiding a singularity (which occurs at $\phi = 90^o$ for this particular Euler Angle convention) I never expect to come close to would be unnecessarily complicated.  Also I still kinda fear quaternions because they are so physically unintuitive. 
+- $\psi$ is a state I leave free.  At the balancing point, $\psi$ will look like cubli's yaw angle. Cubli needs to be able to track external yaw angles provided by me while maintaining balance. 
+- I augmented my state with $[\tau_1, \tau_2, \tau_3]$ even though they are not intrinsically encoded within cubli's free dynamics because otherwise, $D\neq 0$ which is something I am trying to avoid. In general, it is standard practice to have $D =0$ since not doing so means when feeding back on the error term, $u' = K(y(u) - x)$, meaning the new control input becomes a function of the old control input, which can cause a host of problems in an unideal system with noisy actuators. Why $D\neq 0$ without the augmented states is not immediately obvious but becomes clear when you start actually trying to derive the measurement model $C$.  The reasoning is
+  - $a_i \in y$ is certainly dependent on the angular acceleration of the cubli ($\ddot{\theta}, \ddot{\phi}$).
+  - $\ddot{\theta}, \ddot{\phi}$ would both be dependent on $u$ in an unaugmented state vector definition.  
+  - this makes $a_i$ indirectly a function of $u$, which is a nono
+- I want to emphasize that $\tau_i$ in $x$ is different from $\tau_{ic}$ in the $u$.  $\tau_i$ is the torque that motor $i$ is CURRENTLY outputting, while $\tau_{ic}$ is the new torque COMMAND (hence the $c$ subscript) the controller is telling motor $i$ to achieve.  There are empirical methods to ID this first-order transient behavior between $\tau_i$ and $\tau_{ic}$ which are touched on later. 
+
+## Dynamics Model $A, B$
+
+Now let's derive $A$ and $B$ matrices. This is where I hide all the algebra, rotation matrices, and partial derivatives in my pdf document and spare you the eyesore.  In short, the process is
+
+1. Convert Euler Angle rates $[\dot{\theta}, \dot{\phi}, \dot{\psi}]$ to a body-frame angular velocity $\omega_{O'}$. 
+2. Set up and solve the resulting Lagrangian Mechanics problem which will yield a set of equations where $\ddot{\theta} = f(x)$. And likewise for $\ddot{\phi}$ and $\ddot{\psi}$. 
+3. Take a small-angle approximation on $\theta, \phi$.
+4. Jacobian linearization about ($\theta = \phi = \dot{\theta} = \dot{\phi} = 0$)
+
+The final system dynamics written out explicitly is
+
+$$
+\begin{bmatrix}
+
+\end{bmatrix}
+$$
+
+## Measurement Model $C, D$
+
+Unlike dynamics modeling, measurement modeling is strictly a kinematics problem.  Again, there is no shortage of mathematical gymnastics that you need to find in my pdf, but most of the work here is simply knowing how to apply the golden rule of rotational kinematics
+
+$$
+a_r = a_s - \alpha \times r - 2 (\omega \times v_r) - \omega \times (\omega \times r)
+$$
+
+The final measurement model written out explicitly is
+
+$$
+
+$$
 
 ## Flywheel Inertia Calcs 
+
+Analysis is done (for now) and I need to get to know Cubli nice and personal. Low hanging fruit is the rotational inertia of the flywheel.  I need this because eventually I am going to allocate $\alpha_i$ from my motor encoders to $\tau_i \in u$ and to do this I need $I_{wheel}$ to apply $\tau_i = I_{wheel} \alpha_i$. 
+
+Honestly this step is so trivial I am just going to spam you with my hand-calcs and some pictures I took for documentation purposes.  $\boxed{I_{wheel} \sim 2.3036*10^{-4} ~\text{kg m}^2}$. 
+
+<figure align="center">
+  <img src="/assets/images/cubli/flywheel_inertia_calcs.jpg" width="700">
+  <figcaption>Hand Calcs</figcaption>
+</figure>
+
+<figure align="center">
+  <img src="/assets/images/cubli/flywheel_inertia.jpg" width="600">
+  <figcaption>Onshape Mass Properties analysis with overridden mass</figcaption>
+</figure>
+
+<figure align="center">
+  <img src="/assets/images/cubli/flywheel_inertia_2.jpg" width="600">
+  <figcaption>dimension measurements</figcaption>
+</figure>
 
 ## Inertia Tensor Experiments
 To ID my CoM I performed three independent drop tests along 3 axes from equilibrium positions.  $\dot{\theta}$ data is read straight off the IMU (currenlty debating whether I should implement a complementary filter to fuse IMU and accel data), integrated, or differentiated, and appled to $\ddot{\theta} = \frac{g}{l}\sin{\theta}$. I least-squares fit for the parameter $l$. 
 
-## Measurement Model
-
-# Torque-Based Motor Control
+# Inner Loop Motor Torque Control
 
 
 
