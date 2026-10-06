@@ -23,11 +23,13 @@ title: Cubli
 
 # Todos & Current Issues (for rapid personal reference)
 
-- Finish torque-based motor control
+- Finish torque-based motor inner-loop control
   - Need to fit data to a first-order model of motor output torque
   - switch to Serial from MQTT for high-frequency data collection fidelity
+  - Characterize $t_{TC}$ for reaching torque target
 - Characterize $I_{zz}$ of cubli using string suspended spin test
 - Migrate state space realization into Simulink and intuitively verify system behaves as expected 
+- Sanity check the measurement model using real world experiment and validate $C$ with collected data
 
 # Overview
 
@@ -65,9 +67,9 @@ If you have an Onshape account (free), you can export, or copy + modify any of t
 Most parts FDM printed in PLA and joined via heatset threaded inserts.  Larger flat plate-like parts laser cut out of aluminum.  
 
 <figure align="center">
-  <img src="/assets/images/cubli/speaker_holder.jpg" width="300">
-  <img src="/assets/images/cubli/connector_retain_2.jpg" width="300">
-  <img src="/assets/images/cubli/connector_retain_3.jpg" width="300">
+  <img src="/assets/images/cubli/speaker_holder.jpg" width="250">
+  <img src="/assets/images/cubli/connector_retain_2.jpg" width="250">
+  <img src="/assets/images/cubli/connector_retain_3.jpg" width="250">
   <figcaption>some of my custom parts</figcaption>
 </figure>
 
@@ -185,6 +187,7 @@ A few extra notes for clarity
 ## Desired State-Space Realization
 
 At the center of EVERYTHING for cubli is its state space (SS) realization. Let's rip the band aid off.
+
 $$
 x = [\theta, \phi, \psi, \dot{\theta}, \dot{\phi}, \dot{\psi}, \tau_1, \tau_2, \tau_3]^T \in \mathbf{{R}}_{9\times 1}\\
 y = [a_x, a_y, a_z, g_x, g_y, g_z]^T_{AF} \in \mathbf{R}_{6\times 1}\\
@@ -192,6 +195,7 @@ u = [\tau_{1c}, \tau_{2c}, \tau_{3c}]^T_{TF} \in \mathbf{R}_{3\times 1}\\
 \dot{x} = [A_{9\times 9}]x + [B_{9\times 3}]u\\
 y = [C_{6\times 9}]x + [D_{6\times 3}]u
 $$
+
 Getting the easy out of the way first, the definition for $y, u, A ,B, C, D$ should not require too much explanation.  
 - $y$ is my observation (measurement) vector and is simply the 6 raw numbers output by the MPU6050.  $a_i$ is linear acceleration along the $i$th axis [kgm/s^2] and $g_i$ is the angular velocity about the $i$th axis [rad/s]. For clarity, I indicate that this vector is expressed in $AF$ using subscripts. 
 - $u$ is my control input command vector and consists of the desired torque I want the 3 motors to output.  I indicate that this vector is expressed in $TF$, so each scalar term $\tau_{ic}$ corresponds directly with the output motor $i$. 
