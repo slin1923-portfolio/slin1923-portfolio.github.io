@@ -189,11 +189,13 @@ A few extra notes for clarity
 At the center of EVERYTHING for cubli is its state space (SS) realization. Let's rip the band aid off.
 
 $$
-x = [\theta, \phi, \psi, \dot{\theta}, \dot{\phi}, \dot{\psi}, \tau_1, \tau_2, \tau_3]^T \in \mathbf{R}_{9\times 1}\\
-y = [a_x, a_y, a_z, g_x, g_y, g_z]^T_{AF} \in \mathbf{R}_{6\times 1}\\
-u = [\tau_{1c}, \tau_{2c}, \tau_{3c}]^T_{TF} \in \mathbf{R}_{3\times 1}\\
-\dot{x} = [A_{9\times 9}]x + [B_{9\times 3}]u\\
-y = [C_{6\times 9}]x + [D_{6\times 3}]u
+\begin{align*}
+x &:= [\theta, \phi, \psi, \dot{\theta}, \dot{\phi}, \dot{\psi}, \tau_1, \tau_2, \tau_3]^T \in \mathbf{R}_{9\times 1}\\
+y &:= [a_x, a_y, a_z, g_x, g_y, g_z]^T_{AF} \in \mathbf{R}_{6\times 1}\\
+u &:= [\tau_{1c}, \tau_{2c}, \tau_{3c}]^T_{TF} \in \mathbf{R}_{3\times 1}\\
+\dot{x} &= [A_{9\times 9}]x + [B_{9\times 3}]u\\
+y &= [C_{6\times 9}]x + [D_{6\times 3}]u
+\end{align*}
 $$
 
 Getting the easy out of the way first, the definition for $y, u, A ,B, C, D$ should not require too much explanation.  
