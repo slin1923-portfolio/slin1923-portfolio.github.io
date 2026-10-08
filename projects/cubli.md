@@ -3,7 +3,7 @@ layout: default
 title: Cubli
 ---
 
-- [Todos + Current Issues (for rapid personal reference)](#todos--current-issues-for-rapid-personal-reference)
+- [Todos + Current Issues (for quick personal reference)](#todos--current-issues-for-quick-personal-reference)
 - [Overview](#overview)
 - [Mechanical Parts](#mechanical-parts)
 - [Electronics](#electronics)
@@ -17,12 +17,14 @@ title: Cubli
   - [Desired State-Space Realization](#desired-state-space-realization)
   - [Dynamics Model $A, B$](#dynamics-model-a-b)
   - [Measurement Model $C, D$](#measurement-model-c-d)
-  - [Flywheel Inertia Calcs](#flywheel-inertia-calcs)
-  - [Inertia Tensor Experiments](#inertia-tensor-experiments)
+  - [$I\_w$ Calcs](#i_w-calcs)
+  - [Finding the $I\_c$ tensor and $r\_{CM}$](#finding-the-i_c-tensor-and-r_cm)
+    - [Finding $I\_{zz}$](#finding-i_zz)
+    - [Finding $I\_{xx}$ and $r\_{CoM}$](#finding-i_xx-and-r_com)
 - [Inner Loop Motor Torque Control](#inner-loop-motor-torque-control)
 
 
-# Todos + Current Issues (for rapid personal reference)
+# Todos + Current Issues (for quick personal reference)
 
 - Finish torque-based motor inner-loop control
   - Need to fit data to a first-order model of motor output torque
@@ -245,11 +247,11 @@ $$
 
 $$
 
-## Flywheel Inertia Calcs 
+## $I_w$ Calcs 
 
-Analysis is done (for now) and I need to get to know Cubli nice and personal. Low hanging fruit is the rotational inertia of the flywheel.  I need this because eventually I am going to allocate $\alpha_i$ from my motor encoders to $\tau_i \in u$ and to do this I need $I_{wheel}$ to apply $\tau_i = I_{wheel} \alpha_i$. 
+Analysis is done (for now) and I need to get to know Cubli nice and personal. Low hanging fruit is the rotational inertia of the flywheel.  I need this because eventually I am going to allocate $\alpha_i$ from my motor encoders to $\tau_i \in u$ and to do this I need $I_{w}$ to apply $\tau_i = I_{w} \alpha_i$. 
 
-Honestly this step is so trivial I am just going to spam you with my hand-calcs and some pictures I took for documentation purposes.  $\boxed{I_{wheel} \sim 2.3036*10^{-4} ~\text{kg m}^2}$. 
+Honestly this step is so trivial I am just going to spam you with my hand-calcs and some pictures I took for documentation purposes.  $\boxed{I_{w} \sim 2.3036*10^{-4} ~\text{kg m}^2}$. 
 
 <figure align="center">
   <img src="/assets/images/cubli/flywheel_inertia_calcs.jpg" width="700">
@@ -266,8 +268,43 @@ Honestly this step is so trivial I am just going to spam you with my hand-calcs 
   <figcaption>dimension measurements</figcaption>
 </figure>
 
-## Inertia Tensor Experiments
-To ID my CoM I performed three independent drop tests along 3 axes from equilibrium positions.  $\dot{\theta}$ data is read straight off the IMU (currenlty debating whether I should implement a complementary filter to fuse IMU and accel data), integrated, or differentiated, and appled to $\ddot{\theta} = \frac{g}{l}\sin{\theta}$. I least-squares fit for the parameter $l$. 
+## Finding the $I_c$ tensor and $r_{CM}$
+
+The problem of finding the inertia tensor of cubli has allowed me to exercise some creativity in experimental design. Since all of my kinematics/dynamics are calculated wrt $O'$, that is also how I define $I_c$. Now ideally I would have a perfect CAD model with all the right mass properties set or overridden such that a simple computer evaluation would give me $I_c$, but I do NOT have this luxury (this is something I may do in the future ONLY if necessary aka I need a more precise inertia tensor). 
+
+The overall problem is that I need to find
+$$
+I_c = 
+\begin{bmatrix}
+I_{xx} & I_{xy} & I_{xz}\\
+I_{yx} & I_{yy} & I_{yz}\\
+I_{zx} & I_{zy} & I_{zz}
+\end{bmatrix}
+$$
+
+Where $I$ is symmetric by nature so that $I_{ij} = I_{ji}$, leaving only 6 unique terms to find.  BUT, I make the relatively safe assumption that Cubli is rotationally trisymmetric about the z-axis of $O'$, implying $I_{xx} = I_{yy}$ and also that the z-axis of $O'$ is a principal axis of rotation! This simplifies $I$ to be 
+
+$$
+I_c = 
+\begin{bmatrix}
+I_{xx} & 0 & 0\\
+0 & I_{xx} & 0\\
+0 & 0 & I_{zz}
+\end{bmatrix}
+$$
+
+Voila!  I need only to identify 2 inertia terms of my Cubli! Observing $A$ we also see that I will need $r_{CM}$ the location of the center of mass of cubli, which per the rotationally symmetric assumption, should also lie on the z-axis of $O'$. The value hunt begins!
+
+<figure align="center">
+  <img src="/assets/images/cubli/cubli_inertias_figure.jpg" width="700">
+  <figcaption>Diagram of the values I am trying to find and their references. Geometry shown on the right illustrates how cubli can be approximated as some equivalent cylinder due to symmetry.</figcaption>
+</figure>
+
+### Finding $I_{zz}$
+
+$I_{zz}$ is the relatively easiest value to find.  Since I know $I_w$ and all 3 motors are encoded, 
+
+### Finding $I_{xx}$ and $r_{CoM}$
 
 # Inner Loop Motor Torque Control
 
