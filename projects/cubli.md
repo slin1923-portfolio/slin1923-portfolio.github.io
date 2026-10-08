@@ -43,7 +43,7 @@ title: Cubli
 
 # Overview
 
-github: https://github.com/slin1923/custom_cubli
+**github: https://github.com/slin1923/cublii**
 
 *updated 9/16/2026*
 
