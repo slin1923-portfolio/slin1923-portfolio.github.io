@@ -16,6 +16,7 @@ title: Cubli
   - [Frames of Reference](#frames-of-reference)
   - [Desired State-Space Realization](#desired-state-space-realization)
   - [Dynamics Model $A, B$](#dynamics-model-a-b)
+- [\\end{bmatrix}](#endbmatrix)
   - [Measurement Model $C, D$](#measurement-model-c-d)
   - [$I\_w$ Calcs](#i_w-calcs)
   - [Finding the $I\_c$ tensor and $r\_{CM}$](#finding-the-i_c-tensor-and-r_cm)
@@ -235,7 +236,37 @@ The final system dynamics written out explicitly is
 
 $$
 \begin{bmatrix}
-
+\dot{\theta} \\ \dot{\phi} \\ \dot{\psi} \\ \ddot{\theta} \\ \ddot{\phi} \\ \ddot{\psi} \\ \dot{\tau_1} \\ \dot{\tau_2} \\ \dot{\tau_3}
+\end{bmatrix}
+= 
+\begin{bmatrix}
+0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0\\
+\frac{mgr}{I_1} & 0 & 0 & 0 & -\frac{I_{zz}}{I_1}\dot{\psi} & 0 & -\frac{\sqrt{6}}{6I_1} & \frac{\sqrt{6}}{3I_1} & -\frac{\sqrt{6}}{6I_1}\\
+0 & \frac{mgr}{I_1} & 0 & \frac{I_{zz}}{I_1}\dot{\psi} & 0 & 0 & \frac{\sqrt{2}}{2I_1} & 0 & -\frac{\sqrt{2}}{2I_1}\\
+0 & 0 & 0 & 0 & 0 & 0 & -\frac{\sqrt{3}}{3I_{zz}} & -\frac{\sqrt{3}}{3I_{zz}} & -\frac{\sqrt{3}}{3I_{zz}}\\
+0 & 0 & 0 & 0 & 0 & 0 & -\frac{1}{t_{TC}} & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & -\frac{1}{t_{TC}} & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & -\frac{1}{t_{TC}}\\
+\end{bmatrix}
+\begin{bmatrix}
+\theta \\ \phi \\ \psi \\ \dot{\theta} \\ \dot{\phi} \\ \dot{\psi} \\ \tau_1 \\ \tau_2 \\ \tau_3
+\end{bmatrix}
+ + 
+\begin{bmatrix}
+0 & 0 & 0\\
+0 & 0 & 0\\
+0 & 0 & 0\\
+0 & 0 & 0\\
+0 & 0 & 0\\
+0 & 0 & 0\\
+\frac{1}{t_{TC}} & 0 & 0\\
+0 & \frac{1}{t_{TC}} & 0\\
+0 & 0 & \frac{1}{t_{TC}}\\
+\end{bmatrix}
+\begin{bmatrix}
+\tau_{1c} \\ \tau_{2c} \\ \tau_{3c}
 \end{bmatrix}
 $$
 
