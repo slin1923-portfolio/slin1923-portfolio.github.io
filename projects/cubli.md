@@ -33,6 +33,12 @@ title: Cubli
 - Characterize $I_{zz}$ of cubli using string suspended spin test
 - Migrate state space realization into Simulink and intuitively verify system behaves as expected 
 - Sanity check the measurement model using real world experiment and validate $C$ with collected data
+- Big live telemetry progress lately!
+  
+<figure align="center">
+  <img src="/assets/images/cubli/cubli_telemetry_clip.gif" width="600">
+  <figcaption>Controlled torque pulses with live telemetry of control input and gyroscope measurement.</figcaption>
+</figure>
 
 # Overview
 
@@ -305,6 +311,13 @@ Voila!  I need only to identify 2 inertia terms of my Cubli! Observing $A$ we al
 $I_{zz}$ is the relatively easiest value to find.  Since I know $I_w$ and all 3 motors are encoded, 
 
 ### Finding $I_{xx}$ and $r_{CoM}$
+
+*havent gotten around to documenting yet, but here's a sneak peak*
+
+<figure align="center">
+  <img src="/assets/images/cubli/cublii_swing_clip.gif" width="600">
+  <figcaption>A series of controlled swings gives me all the information I need</figcaption>
+</figure>
 
 # Inner Loop Motor Torque Control
 
