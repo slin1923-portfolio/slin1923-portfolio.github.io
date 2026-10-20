@@ -9,9 +9,14 @@ title: Home
 
 Hi!  Welcome to my engineering portfolio!  
 
-My name is Sean Lin.  I am an astronautical engineer (specializing in spacecraft GNC) and I have been making for forever.  Here you can find all the things I have built. 
+My name is Sean Lin.  I am an astronautical engineer specializing in spacecraft GNC. Figure 1 demonstrates what GNC is. 
 
-I also have included my academic coursework with their associated cheatsheets, projects, or an earnest course review. 
+<figure align="center">
+  <img src="/assets/images/GNC-duh.gif" width="600">
+  <figcaption>Figure 1: State of the Art GNC architecture</figcaption>
+</figure>
+
+I have been tinkering for forever. Here you can find all the things I have built. I also have included my academic coursework with their associated cheatsheets, projects, or an earnest course review. 
 
 I enjoy both hardware and software in the name of learning, utility, or art.  Peruse everything I've done as an engineer, from my earliest high school tinkerings to my latest weekend timekillers. 
 
@@ -240,7 +245,7 @@ I enjoy both hardware and software in the name of learning, utility, or art.  Pe
   </a>
   <div>
     <h3 style="margin:0 0 8px 0;"><a href="../projects/scioly.html" style="text-decoration:none; color:#1a1a1a;">Science Olympiad Builds</a></h3>
-    <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">I was an engineering specialist for my years as a competitor. Here is my high school highlight reel.</p>
+    <p style="margin:0 0 10px 0; color:#444; line-height:1.5;">My high school highlight reel. There are no 60 yard rushes or Hail Mary completions here, just nerd stuff.</p>
     <div>
       <span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#tower</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#boomilever</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#helicopter</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#mousetrap-vehicle</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#optics</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#wind-power</span><span style="display:inline-block; background:#f0f0f0; color:#555; padding:2px 8px; border-radius:12px; font-size:12px; margin:2px 4px 2px 0;">#scioly</span>
     </div>

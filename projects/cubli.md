@@ -8,7 +8,6 @@ title: Cubli
 - [Mechanical Parts](#mechanical-parts)
 - [Electronics](#electronics)
 - [Firmware](#firmware)
-  - [Platform.IO and mosquiTTo reminders](#platformio-and-mosquitto-reminders)
 - [Modeling and Dynamics](#modeling-and-dynamics)
   - [Nomenclature and Values (for quick reference)](#nomenclature-and-values-for-quick-reference)
     - [Experimental Values (Cubli intrinsics)](#experimental-values-cubli-intrinsics)
@@ -116,56 +115,17 @@ Again, credit to ReM-RC for hardware scoping and design.  Also, a quick shoutout
 
 # Firmware
 
-**This section onward is where my own work truly begins and I diverge from ReM-RC**.
+**From this point on all work is my own**.
 
- In the past, I always flashed to ESP32s using the USB cable and also used the same cable as my data connection for Serial.  I would have gone crazy if I needed to do that for Cubli.  Not only because I iterate and flash frequently, but more critically because I would need IMU data streamed back to me without the mechanical attachment of a cable affecting Cubli's dynamics. Platform.IO is a way to flash over wifi and mosquiTTo is a way to publish and subscribe to OTA messages (not dissimilar to ROS). 
+*All of my firmware and its accompanying documentation lives on the the github repository: **https://github.com/slin1923/cublii***
 
-## Platform.IO and mosquiTTo reminders
+Here on the main post, rather than provide work-instruction which is better fit for the README on the repo, I want to discuss design decisions and lingering concerns.  
 
-The workflow for OTA flashing
+ **Flashing**: In the past, I flashed to ESP32s and read data back via Serial using the USB cable.  Since this project needed frequent firmware iteration, I decided I wanted to be able to update my firmware cable-free.  Also, in the past, I had exclusively uploaded ```.ino``` files to my ESP32 using the Arduino IDE.  I figured it was time I took the training wheels off and develop firmware in C++.  In order to accomplish all this, I used the Platform.io VSCode extension and the ArduinoOTA library to connect my ESP32 to wifi, allowing me to write, build, and cable-free-flash my firmware updates to the ESP32 in one streamlined workflow. 
 
-1. Open the project in Platform.io (the folder must contain a file ```platformio.ini```)
-2. Make sure ```platformio.ini``` contains at least the following 
-   ```
-   [env:esp32dev]
-    platform = espressif32
-    board = esp32dev
-    framework = arduino
+ **Telemetry (MQTT)**: MQTT (Message Queuing Telemetry Transport) is a protocol that allows me to read telemetry from cublii.  This was an ABSOLUTE MUST for this project.  The ESP32 has no built-in memory, and while some versions of the board accomodate external SD cards, I did NOT want to have to read an SD card every single time I wanted my IMU or encoder data back.  Using MQTT, along with the excellent open-source visualization software PlotJuggler4, I am able to get live data from cublii mid-run sans cable.  Naturally, this also means I can write my data live to a .csv file for future processing and analysis.  Absolute game-changer.
 
-    # comment the next two lines to upload via USB
-    upload_protocol = espota
-    upload_port = 192.168.0.220
-   ```
-3. compile and upload (*check mark and arrow in bottom left of VSCode Window*)
-
-The workflow for OTA IMU data readout
-1. Open a terminal and run ```& "C:\Program Files\mosquitto\mosquitto.exe" -c "C:\mosquitto-config\mosquitto.conf" -v```.  All this does is start mosquiTTo
-2. Open a new terminal and run ```& "C:\Program Files\mosquitto\mosquitto_sub" -h localhost -t esp32/accel``` for live IMU readouts.
-3. ALTERNATIVELY, run ```python log_imu.py``` and then run ```python analyze_imu.py``` if running a proper system ID test.
-
-Reminders
-- to make sure ArduinoOTA is not locked out of the ESP32: 
-  - Every ```main.cpp``` wrapper flashed to the ESP32 must contain ```#include <ArduinoOTA.h>```
-  - Every ```void setup()``` method needs to contain 
-    ```
-    ArduinoOTA.setHostname("esp32-imu");
-    ArduinoOTA.begin();
-    ```
-  - In as many places as possible within ```void loop()```, especially where you may get stuck within a conditional, add 
-    ```
-    ArduinoOTA.handle();
-    ```
-  - essentially, the firmware needs to no only be executing the control loop but must always be listening for new code too.
-- Troubleshoot: if will not upload OTA, check in order
-  - ping the IP address and see if you get a response, if no response, reset the ESP32 and try pinging again
-  - use IP scanner to see if address has changed.  
-  - check for Windows system Firewall (may have been reactivated after software update)
-  - check for brownout (insufficient power to ESP32 due to depleted battery)
-  - check for ```ArduinoOTA.handle();``` blind spots
-  - ask Claude
-- Troubleshoot: if cannot get messages back
-  - Make sure ```esp32/accel``` matches the ```mqtt_topic``` in ```main.cpp```
-  - run ```net stop mosquitto``` and try again (essentially restart mqtt).
+ **Multi-processing**: One of my biggest concerns with telemetry was whether it would interfere with my control loop.  I have telemetry coming back at 50 Hz while my main control loop cycles at 100 Hz. In order to prevent timing inconsistencies with my control loop (far more important to maintain at 100 Hz than telemetry at 50 Hz), I simply ran each process on separate cores.  The ESP32 is thankfully dual-core.
 
 # Modeling and Dynamics
 
@@ -174,6 +134,8 @@ This is where the fun begins. A lot of dynamic modeling is analytical derivation
 ## Nomenclature and Values (for quick reference)
 
 ### Experimental Values (Cubli intrinsics)
+
+
 
 ### Analytical Variables
 
